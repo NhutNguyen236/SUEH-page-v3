@@ -397,10 +397,10 @@
 		}).open();
 	}
 
-    /**
-     * Team section swiper
-     */
-     new Swiper(".team-slider", {
+	/**
+	 * Team section swiper
+	 */
+	new Swiper(".team-slider", {
 		speed: 600,
 		loop: true,
 		autoplay: {
@@ -418,28 +418,28 @@
 				slidesPerView: 1,
 				spaceBetween: 20,
 			},
-            
-            989: {
+
+			989: {
 				slidesPerView: 2,
 				spaceBetween: 20,
 			},
 
-            999: {
+			999: {
 				slidesPerView: 3,
 				spaceBetween: 20,
 			},
 
-            1005: {
+			1005: {
 				slidesPerView: 3,
 				spaceBetween: 20,
 			},
 
-            1023: {
+			1023: {
 				slidesPerView: 3,
 				spaceBetween: 20,
 			},
 
-            1030: {
+			1030: {
 				slidesPerView: 3,
 				spaceBetween: 20,
 			},
@@ -448,8 +448,6 @@
 				slidesPerView: 4,
 				spaceBetween: 20,
 			},
-
-            
 		},
 	});
 })();
