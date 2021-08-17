@@ -466,12 +466,12 @@
 
         // Evening
         else if(hour >= 15 && hour <= 18){
-            $('#hero').css('background-image', 'url(../img/evening.jpg)')
+            $('#hero').css('background-image', 'url(https://i.ibb.co/Jx9kYdL/evening.jpg)')
         }
 
         // Night
         else if(hour >= 19 && hour <= 5){
-            $('#hero').css('background-image', 'url(../img/night.png)')
+            $('#hero').css('background-image', 'url(https://i.ibb.co/GQxRqQ5/night.jpg)')
         }
     }
 
