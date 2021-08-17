@@ -1694,7 +1694,8 @@ section {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	margin: 0;
-	-webkit-text-stroke: 0.8px #f8f8f8;
+	-webkit-text-stroke: -5px #f8f8f8;
+    
 }
 
 @keyframes animate {
