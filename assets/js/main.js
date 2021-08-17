@@ -461,17 +461,17 @@
 
         // Morning
         if(hour >= 6 && hour <= 14){
-            $('#hero').css('background-image', 'url(https://wallpaperaccess.com/full/448248.jpg)')
+            return $('#hero').css('background-image', 'url(https://wallpaperaccess.com/full/448248.jpg)')
         }
 
         // Evening
-        else if(hour >= 15 && hour <= 18){
-            $('#hero').css('background-image', 'url(https://i.ibb.co/Jx9kYdL/evening.jpg)')
+        if(hour >= 15 && hour <= 18){
+            return $('#hero').css('background-image', 'url(https://i.ibb.co/Jx9kYdL/evening.jpg)')
         }
 
         // Night
-        else if(hour >= 19 && hour <= 5){
-            $('#hero').css('background-image', 'url(https://i.ibb.co/GQxRqQ5/night.jpg)')
+        if(hour >= 19 || (hour >= 0 && hour <= 5)){
+            return $('#hero').css('background-image', 'url(https://i.ibb.co/GQxRqQ5/night.jpg)')
         }
     }
 
