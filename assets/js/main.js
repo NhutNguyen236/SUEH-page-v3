@@ -450,4 +450,31 @@
 			},
 		},
 	});
+
+    /**
+     * Change background due to time
+     * @param {time} time - current time
+     */
+    function changeBackground(time){
+        var hour = time.getHours()
+        console.log(hour)
+
+        // Morning
+        if(hour >= 6 && hour <= 14){
+            $('#hero').css('background-image', 'url(https://wallpaperaccess.com/full/448248.jpg)')
+        }
+
+        // Evening
+        else if(hour >= 15 && hour <= 18){
+            $('#hero').css('background-image', 'url(../img/evening.jpg)')
+        }
+
+        // Night
+        else if(hour >= 19 && hour <= 5){
+            $('#hero').css('background-image', 'url(../img/night.png)')
+        }
+    }
+
+    var time = new Date()
+    changeBackground(time)
 })();

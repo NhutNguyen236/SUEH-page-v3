@@ -353,7 +353,7 @@ h6 {
 	background: linear-gradient(0deg, #2a2c39 0%, #33364a 100%);
 	padding: 0;
 	/*Nhut added  a new background for banner*/
-	background-image: url(https://wallpaperaccess.com/full/448248.jpg);
+	/* background-image: url(https://wallpaperaccess.com/full/448248.jpg); */
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1682,11 +1682,11 @@ section {
 
 /* Hero quote image background text effect*/
 #hero_quote {
-	background-image: url(https://31.media.tumblr.com/b3178d7f2c1d033e11dbb298e1f93ece/tumblr_n9emp2vYt91t5u8jso1_500.gif);
+	background-image: url(https://thumbs.gfycat.com/BruisedUntriedEelelephant-max-1mb.gif);
     background-position: 50% 50%;
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
-	font-size: 80px !important;
+	font-size: 90px !important;
 	animation: animate 3s ease forwards;
 	position: relative;
 	font-weight: 200px !important;
@@ -1699,7 +1699,7 @@ section {
 
 @keyframes animate {
 	from {
-		background-position: center 30%%;
+		background-position: center 30%;
 	}
 	to {
 		background-position: center 30%;
